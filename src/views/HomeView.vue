@@ -1,9 +1,10 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <main>Welcome to Battleships! This is a mini project for my first interaction with Vue.</main>
 </template>
+
+<style scoped>
+main {
+  display: flex;
+  justify-content: center;
+}
+</style>
